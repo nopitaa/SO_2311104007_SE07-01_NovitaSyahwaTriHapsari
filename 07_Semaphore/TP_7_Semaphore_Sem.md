@@ -2,8 +2,6 @@
 <p align="center">Novita Syahwa Tri Hapsari - 2311104007</p>
 
 ## Guided
-# Dasar Teori Modul 7: Semaphore
-
 ## Pengertian Semaphore
 Semaphore adalah mekanisme sinkronisasi dalam sistem operasi yang digunakan untuk mengatur akses beberapa proses terhadap resource bersama (shared resource). Dengan semaphore, sistem dapat menghindari konflik seperti race condition dan memastikan proses berjalan secara terkontrol.
 Semaphore direpresentasikan sebagai variabel integer yang hanya dapat diakses melalui operasi khusus.
