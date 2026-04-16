@@ -37,7 +37,7 @@ Sintaks:
 ```
 signal(s);
 ```
-## Pola Penggunaan Semaphore
+### Pola Penggunaan Semaphore
 
 1. Signaling
 Digunakan untuk mengatur urutan eksekusi antar proses.
@@ -73,7 +73,8 @@ wait(mutex);
 // critical section
 signal(mutex);
 ```
-Hasil Praktikum 
+## Hasil Praktikum 
+
 ![alt text](32.png) 
 
 ![alt text](30.png) 
@@ -87,9 +88,10 @@ Kwak
 Kwik
 Kwek
 jawaban:
+
 ![alt text](30.png) 
 
-2. [50 poin] Buatlah proses bernama produser yang memproduksi bilangan 1-1000. Buatlah proses bernama konsumer yang akan menampilkan nilai yang diproduksi oleh produser. Gunakan semaphore! 
+3. [50 poin] Buatlah proses bernama produser yang memproduksi bilangan 1-1000. Buatlah proses bernama konsumer yang akan menampilkan nilai yang diproduksi oleh produser. Gunakan semaphore! 
 Produser memproduksi nilai 1
 Konsumer menampilkan nilai 1
 Produser memproduksi nilai 2
@@ -97,5 +99,6 @@ Konsumer menampilkan nilai 2
 ….
 Produser memproduksi nilai 1000
 Konsumer menampilkan nilai 1000
+
 ![alt text](31.png) 
 
