@@ -28,7 +28,7 @@ Setelah script selesai dijalankan, masuk ke direktori kompilasi dengan perintah 
 ### 1. Buat syscall baru seperti yang ditunjukkan pada modul syscall poin 9.5! (sertakan Screenshot kode dan hasil run)  
 Jawaban:
 
-![alt text](40.png) 
+![alt text](40.jpeg) 
 
 ### 2. Perbaiki syscall chprio (xinu/system/chprio.c) dengan memperhatikan validasi input
 Sebelum menjalankan atau menguji program, pastikan beberapa hal berikut:
