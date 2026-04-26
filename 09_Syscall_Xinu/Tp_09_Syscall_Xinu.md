@@ -74,13 +74,16 @@ c. Hasil dua testing di atas adalah prioritas tidak berubah karena salah argumen
 
 Jawab :  
 
-a. ![alt text](42.jpeg)
+jawaban a
+![alt text](42.jpeg)
 
 ![alt text](43.jpeg) 
 
-b. ![alt text](44.jpeg) 
+jawaban b
+![alt text](44.jpeg) 
 
-c. ![alt text](45.jpeg) 
+jawaban c 
+![alt text](45.jpeg) 
 
 ## D. Referensi
 
