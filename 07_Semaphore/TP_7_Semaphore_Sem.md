@@ -89,7 +89,7 @@ jawaban:
 
 ![alt text](30.png) 
 
-3. [50 poin] Buatlah proses bernama produser yang memproduksi bilangan 1-1000. Buatlah proses bernama konsumer yang akan menampilkan nilai yang diproduksi oleh produser. Gunakan semaphore! 
+2. [50 poin] Buatlah proses bernama produser yang memproduksi bilangan 1-1000. Buatlah proses bernama konsumer yang akan menampilkan nilai yang diproduksi oleh produser. Gunakan semaphore! 
 Produser memproduksi nilai 1
 Konsumer menampilkan nilai 1
 Produser memproduksi nilai 2
