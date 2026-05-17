@@ -21,19 +21,46 @@ Contoh sistem operasi yang sering digunakan antara lain:
 
 2. [25 Poin] Buka dxdiag pada kolom search windows, dan jawab pertanyaan berikut!
 [5 Poin] Sertakan Screenshot!
+
+![alt text](51.png) 
+
 a. [5 Poin] Windows apakah yang diinstal?
+jawaban: windows 8 
 b. [5 Poin] Berapa bit Windows yang diinstall?
+jawaban: Windows yang digunakan adalah 64-bit.
 c. [5 Poin] Berapa kecepatan processor yang digunakan?
+jawaban: Processor yang digunakan memiliki kecepatan sekitar 3.10 GHz.
 d. [5 Poin] Grafik yang digunakan versi berapa? Apakah sudah sesuai dengan
 spesifikasi rekomendasi pada modul?
-3. [10 Poin] Apa kelebihan dari windows yang terpasang sekarang? Sebutkan versi
+jawaban: Grafik yang digunakan sudah mendukung DirectX 11 sehingga sudah sesuai dengan spesifikasi rekomendasi pada modul.
+4. [10 Poin] Apa kelebihan dari windows yang terpasang sekarang? Sebutkan versi
 berapa windows terbaru saat ini!
-4. [25 Poin] Buka virtualbox, dan jawab pertanyaan berikut!
+jawaban: 
+- Kelebihan Windows 8
+- Tampilan lebih modern dengan antarmuka tile.
+- Proses booting lebih cepat dibanding Windows 7.
+- Mendukung aplikasi dan hardware yang lebih baru.
+- Memiliki performa yang cukup ringan.
+- Sudah mendukung sistem 64-bit dengan baik.
+- Versi Windows terbaru saat ini
+
+Versi Windows terbaru saat ini adalah Windows 11.
+
+5. [25 Poin] Buka virtualbox, dan jawab pertanyaan berikut!
 [5 Poin] Sertakan Screenshot!
+
+![alt text](50.png) 
+
 a. [5 Poin] Linux apakah yang diinstall?
+ 
+jawaban:Linux yang diinstall pada gambar adalah Ubuntu Linux
+
 b. [5 Poin] Berapa bit Linux yang diinstall?
+jawaban: ubuntu 64bit
 c. [5 Poin] Berapa ukuran hard disk virtual mesin?
+
 d. [5 Poin] Terdapat berapa buah partisi pada hard disk?
+
 5. [10 Poin] Linux memiliki berbagai jenis, sebutkan 5 jenis linux distro!
    
 jawaban:
@@ -53,9 +80,7 @@ Berikut adalah 5 jenis distro Linux yang sering digunakan yaitu
 6. [10 Poin] Anda sudah mengenal dan menggunakan 3 jenis sistem operasi pada
 praktikum ini, sebutkan sistem operasi tersebut!
 
-jawaban:
-
-Pada praktikum ini, terdapat 3 jenis sistem operasi yang digunakan, yaitu:
+jawaban : Pada praktikum ini, terdapat 3 jenis sistem operasi yang digunakan, yaitu:
 - Windows
 - Linux
 - macOS
