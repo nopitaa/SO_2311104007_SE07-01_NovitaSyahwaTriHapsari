@@ -22,7 +22,7 @@ Contoh sistem operasi yang sering digunakan antara lain:
 2. [25 Poin] Buka dxdiag pada kolom search windows, dan jawab pertanyaan berikut!
 [5 Poin] Sertakan Screenshot!
 
-![alt text](51.png) 
+![alt text](52.jpg) 
 
 a. [5 Poin] Windows apakah yang diinstal?
 jawaban: windows 8 
