@@ -102,8 +102,91 @@ a. Lakukan dan screenshot perintah cd / kemudian lakukan perintah cd ~. Jelaskan
    
    Perintah cd / memindahkan pengguna ke direktori root (/). Sedangkan cd ~ memindahkan pengguna ke direktori home user (/home/xinu). Perbedaannya adalah cd / menuju direktori utama sistem, sedangkan cd ~ menuju direktori milik pengguna yang sedang aktif.
 
+   #### 6. Copy, rename dan delete file (screenshot setiap tahapan!)
+
+a. Copylah file dari /proc/cpuinfo ke folder home Anda (/home/user/) menggunakan command pada terminal. Ganti user dengan username anda.
+
+   ![alt text](6a.jpeg) 
+
+b. Tunjukkan menggunakan perintah bahwa file tersebut benar-benar telah dicopy ke folder home Anda.
+
+   ![alt text](6b.jpeg) 
+
+c. Copy file dari /proc/uptime ke folder home Anda.
+
+   ![alt text](6c.jpeg) 
+
+d. Tunjukkan menggunakan perintah bahwa file tersebut benar-benar telah dicopy ke folder home Anda.
+
+   ![alt text](6d.jpeg) 
+
+e. Hapuslah file uptime di folder home Anda.
+
+   ![alt text](6e.jpeg) 
+
+f. Tunjukkan menggunakan perintah bahwa file tersebut benar-benar telah dihapus ke folder home Anda.
+
+   ![alt text](6f.jpeg) 
+
+g. Rename file cpuinfo di folder home Anda menjadi infocpu
+
+   ![alt text](6g.jpeg) 
+
+
 b. Lakukan perintah cd /proc/self. Buatlah perintah menggunakan cd .. agar dapat berpindah ke direktori / (root). Berapa kali perintah cd .. harus dieksekusi? Screenshot hasilnya!
 
-   ![alt text](67.png) 
+   ![alt text](6h.jpeg) 
 
    Perintah cd .. harus dieksekusi 2 kali untuk berpindah dari /proc/self ke direktori root (/).
+
+   #### 7. Membuat folder baru.
+
+a. Buatlah folder baru dengan nama “nim_anda”.
+
+  ![alt text](68.png)
+  
+b. Buatlah di dalam folder “nim_anda”, folder baru dengan nama “nama_anda”.
+
+  ![alt text](69.png) 
+
+  #### 8. Membaca manual
+
+a. Bukalah fungsi manual untuk perintah “ls”
+
+  ![alt text](70.png) 
+
+b. Apa fungsi perintah “ls”?
+
+   Perintah ls digunakan untuk menampilkan daftar file dan direktori.
+
+c. Siapakah pencipta perintah “ls”?
+   
+writen by Torbjom Grandlund, David Mackenzie, and Jim Mereying.
+
+d. Apakah arti dari -h dari manual ls?
+
+   -h (human readable) digunakan untuk menampilkan ukuran file dalam format yang lebih mudah dibaca seperti KB, MB, GB.
+
+e. Option apa yang harus digunakan agar dapat melihat direktori secara rekursif?
+
+   -R digunakan untuk menampilkan isi direktori beserta subdirektori secara rekursif.
+
+f. Bukalah fungsi manual untuk perintah “cp”
+
+   ![8f](Image/8f.jpeg)
+
+g. Apa fungsi perintah “cp”
+
+   cp digunakan untuk menyalin (copy) file atau direktori.
+
+h. Siapakah pencipta perintah “cp”?
+
+   ![8h](Image/8h.jpeg)
+
+i. Apakah arti -v dalam perintah “cp?
+
+   -v (verbose) digunakan untuk menampilkan proses penyalinan secara detail.
+
+j. Jika ingin interaktif, option apa yang harus digunakan?
+
+   -i (interactive) meminta konfirmasi sebelum file ditimpa.
