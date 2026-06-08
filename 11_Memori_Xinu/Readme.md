@@ -9,7 +9,7 @@ Manajemen memori yang efisien merupakan salah satu komponen penting dalam sistem
 a. Menampilkan seluruh free memory block yang tercatat dalam free memory
 list pada Xinu.
 
-(Image/1.png)
+![alt text](60.png) 
 
 Langkah-langkah:
 1. Running Development-system yang ada di VirtualBox.
