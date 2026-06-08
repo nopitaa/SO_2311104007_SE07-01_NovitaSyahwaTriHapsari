@@ -5,6 +5,32 @@
 Manajemen memori yang efisien merupakan salah satu komponen penting dalam sistem operasi. Xinu sebagai sistem operasi minimalis menerapkan mekanisme pengelolaan memori yang dirancang secara efektif untuk menangani alokasi memori statis maupun dinamis. Pada materi ini akan dipelajari mengenai struktur serta cara kerja manajemen memori pada Xinu.
 
 ## Unguided
+### 1. Buatlah perintah baru bernama freememory yang memiliki dua fungsi berikut:
+a. Menampilkan seluruh free memory block yang tercatat dalam free memory
+list pada Xinu.
+
+(Image/1.png)
+
+Langkah-langkah:
+1. Running Development-system yang ada di VirtualBox.
+2. Ketik ls pada terminal.
+3. Buat folder project Modul 11 dengan perintah cp -r xinu xinu_m11.
+4. Masuk ke project dengan cd xinu_m11.
+5. Buat file command baru bernama xsh_freememory.c di folder shell:nano shell/xsh_freememory.c
+6. Ketik source code yang digunakan untuk menampilkan daftar memori kosong/free memory yang masih tersedia di sistem Xinu.
+7. Simpan file dengan CTRL + O → Enter -> CTRL + X
+8. Edit prototype dulu : nano include/shprototypes.h 
+9. Cari xsh_help lalu tambahkan : extern shellcmd xsh_freememory(int32, char *[]);
+10. Simpan file dengan CTRL + O → Enter -> CTRL + X
+11. Edit daftar command di shell.c, ketik : nano shell/shell.c
+12. Cari bagian help lalu tambahkan : {"freememory", xsh_freememory},
+13. Simpan file dengan CTRL + O → Enter -> CTRL + X
+14. Compile project dengan cd compile, lalu make clean setelah itu make.
+15. Jalankan Xinu dengan sudo minicom.
+16. Cek command baru dengan mengetik help.
+17. Jalankan command dengan mengetik freememory.
+
+
 ### 2.  Jawablah pertanyaan berikut:
 a. Mengapa Xinu memisahkan data segment dan BSS segment?
 b. Bagaimana alokasi dan dealokasi memori selama eksekusi memengaruhi ukuran free space?
