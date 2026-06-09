@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 13  <br> Perintah Dasar Linux </h1>
+<img width="601" height="502" alt="image" src="https://github.com/user-attachments/assets/f28661ad-4115-419e-94b7-93f6ecfbbea1" /># <h1 align="center">Laporan Praktikum Modul 13  <br> Perintah Dasar Linux </h1>
 <p align="center">Novita Syahwa Tri Hapsari - 2311104007</p>
 
 ## A. Dasar Teori
@@ -102,6 +102,12 @@ a. Lakukan dan screenshot perintah cd / kemudian lakukan perintah cd ~. Jelaskan
    
    Perintah cd / memindahkan pengguna ke direktori root (/). Sedangkan cd ~ memindahkan pengguna ke direktori home user (/home/xinu). Perbedaannya adalah cd / menuju direktori utama sistem, sedangkan cd ~ menuju direktori milik pengguna yang sedang aktif.
 
+   b. Lakukan perintah cd /proc/self. Buatlah perintah menggunakan cd .. agar dapat berpindah ke direktori / (root). Berapa kali perintah cd .. harus dieksekusi? Screenshot hasilnya!
+
+   ![alt text](67.png) 
+
+   Perintah cd .. harus dieksekusi 2 kali untuk berpindah dari /proc/self ke direktori root (/).
+
    #### 6. Copy, rename dan delete file (screenshot setiap tahapan!)
 
 a. Copylah file dari /proc/cpuinfo ke folder home Anda (/home/user/) menggunakan command pada terminal. Ganti user dengan username anda.
@@ -132,12 +138,6 @@ g. Rename file cpuinfo di folder home Anda menjadi infocpu
 
    ![alt text](6g.jpeg) 
 
-
-b. Lakukan perintah cd /proc/self. Buatlah perintah menggunakan cd .. agar dapat berpindah ke direktori / (root). Berapa kali perintah cd .. harus dieksekusi? Screenshot hasilnya!
-
-   ![alt text](6h.jpeg) 
-
-   Perintah cd .. harus dieksekusi 2 kali untuk berpindah dari /proc/self ke direktori root (/).
 
    #### 7. Membuat folder baru.
 
@@ -173,7 +173,7 @@ e. Option apa yang harus digunakan agar dapat melihat direktori secara rekursif?
 
 f. Bukalah fungsi manual untuk perintah “cp”
 
-   ![8f](Image/8f.jpeg)
+  ![alt text](71.png) 
 
 g. Apa fungsi perintah “cp”
 
@@ -181,7 +181,7 @@ g. Apa fungsi perintah “cp”
 
 h. Siapakah pencipta perintah “cp”?
 
-   ![8h](Image/8h.jpeg)
+writen by Torbjom Grandlund, David Mackenzie, and Jim Mereying.
 
 i. Apakah arti -v dalam perintah “cp?
 
@@ -190,3 +190,69 @@ i. Apakah arti -v dalam perintah “cp?
 j. Jika ingin interaktif, option apa yang harus digunakan?
 
    -i (interactive) meminta konfirmasi sebelum file ditimpa.
+
+   #### 9. Pipe
+
+a. Lakukan perintah ini cat /etc/passwd dan screenshot hasil perintah tersebut!
+
+  ![alt text](72.png) 
+
+b. Apa fungsi perintah cat?
+
+   Perintah cat digunakan untuk menampilkan isi file ke terminal.
+   
+c. Lakukan perintah cat /etc/passwd | grep daemon dan screenshot hasil perintah tersebut!
+
+  ![alt text](73.png) 
+
+d. Lakukan perintah cat /etc/passwd | grep root dan screenshot hasil perintah tersebut!
+
+  ![alt text](74.png) 
+
+e. Lakukan perintah cat /etc/passwd | grep nobody dan screenshot hasil perintah
+tersebut!
+
+  ![alt text](75.png) 
+   
+f. Apakah fungsi perintah “ | grep daemon”?
+
+   Tanda | (pipe) digunakan untuk mengirim output dari perintah sebelumnya ke perintah berikutnya, sedangkan grep daemon digunakan untuk mencari baris yang mengandung kata daemon.
+
+### 10. Redirection
+
+a. Lakukan perintah dan jelaskan hasilnya : cd / , ls -al > /home/user/result.txt , Ganti user dengan username ubuntu anda.
+
+  ![alt text](76.png) 
+
+   Perintah ls -al menampilkan isi direktori root (/) secara detail, lalu hasilnya disimpan ke file result.txt.
+
+b. Dimana file result.txt berada?
+
+   /home/xinu/result.txt
+
+c. Lakukan perintah dan jelaskan hasilnya : cd /etc , ls -al > /home/user/result.txt , Ganti user dengan username ubuntu anda.
+
+  ![alt text](77.png) 
+
+   Isi result.txt berubah menjadi daftar file dari direktori /etc, karena tanda > menimpa isi file sebelumnya.
+
+d. Apakah fungsi dari perintah >?
+
+   > digunakan untuk mengarahkan output ke file dan mengganti isi file lama (overwrite).
+
+e. Lakukan perintah dan jelaskan hasilnya : cd / , ls -al >> /home/user/result1.txt , Ganti user dengan username ubuntu anda.
+
+  ![alt text](78.png) 
+
+   Hasil ls -al dari direktori / ditambahkan ke file result1.txt.
+
+f. Lakukan perintah dan jelaskan hasilnya : cd /etc , ls -al >> /home/user/result1.txt , Ganti user dengan username ubuntu anda.
+
+  ![alt text](79.png) 
+
+   Hasil ls -al dari direktori /etc ditambahkan ke file result1.txt, tanpa menghapus isi sebelumnya.
+
+g. Apakah perbedaan perintah > dan >>?
+
+   > menimpa atau mengganti isi file lama (overwrite).
+   >> menambahkan isi baru ke file tanpa menghapus isi lama (append).
