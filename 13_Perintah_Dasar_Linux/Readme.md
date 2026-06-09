@@ -1,4 +1,4 @@
-<img width="601" height="502" alt="image" src="https://github.com/user-attachments/assets/f28661ad-4115-419e-94b7-93f6ecfbbea1" /># <h1 align="center">Laporan Praktikum Modul 13  <br> Perintah Dasar Linux </h1>
+<h1 align="center">Laporan Praktikum Modul 13  <br> Perintah Dasar Linux </h1>
 <p align="center">Novita Syahwa Tri Hapsari - 2311104007</p>
 
 ## A. Dasar Teori
@@ -256,3 +256,33 @@ g. Apakah perbedaan perintah > dan >>?
 
    > menimpa atau mengganti isi file lama (overwrite).
    >> menambahkan isi baru ke file tanpa menghapus isi lama (append).
+
+### II. Kompile Source Code
+
+#### 1. Buatlah file dengan nama 2_1.c yang berisi:
+
+  ![alt text](85.png) 
+
+#### 2. Kompile source code tersebut menggunakan gcc! Nama output program adalah 2_1 (bukan a.out). Tuliskan perintah untuk mengkompile source code tersebut!
+
+  ![alt text](83.png) 
+
+#### 3. Jalankan program yang baru saja Anda kompile. Tuliskan perintah untuk menjalankan program tersebut!
+
+  ![alt text](84.png) 
+
+#### 4. Buatlah file dengan nama 2_2.c yang berisi:
+
+  ![alt text](80.png) 
+
+#### 5. Kompile source code tersebut menggunakan gcc! Nama output program adalah “myopen”. Tulis perintah untuk mengkompile source code tersebut.
+
+  ![alt text](81.png) 
+
+#### 6. Jalankan program myopen yang baru saja Anda buat! Tuliskan perintah untuk menjalankan program myopen.
+
+  ![alt text](82.png) 
+
+#### 7. Jelaskan apa yang dilakukan program tersebut!
+   Program myopen digunakan untuk mencoba membuka file yang diberikan sebagai parameter. Jika file berhasil dibuka maka akan menampilkan pesan bahwa file berhasil dibuka. Jika gagal, program menampilkan pesan error.
+   
