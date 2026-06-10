@@ -152,26 +152,26 @@ Pilih y (enter), pilih y (enter), enter, kemudian buatlah password. Ingatlah pas
 - Langkah awal adalah melakukan instalasi aplikasi `encfs` dan melakukan inisialisasi folder terenkripsi serta folder normal untuk membuat sistem berkas terenkripsi (*encrypted volume*).
 - Perintah : encfs ~/Shilfi_2311104002/folder_terenkripsi ~/Shilfi_2311104002/folder_normal
 
- ![alt text](86.png)
+ ![alt text](4a.png)
  
 b. Copy dua atau tiga buah file (file apa saja) ke folder_normal. Amati dan tulis hasil observasi Anda pada folder_terenkripsi! 
 
 Hasil Observasi : Ketika dilakukan pengecekan pada folder_terenkripsi menggunakan perintah ls folder_terenkripsi, nama file yang muncul telah berubah menjadi deretan karakter acak (ciphertext). Hal ini membuktikan bahwa sistem EncFS bekerja secara real-time untuk melakukan enkripsi pada saat file dimasukkan ke dalam folder yang telah di-mount.
 
- ![alt text](86.png)
+ ![alt text](4b.png)
  
 c.  Hapus salah satu file (bebas) pada folder_terenkripsi. Amati dan tulis hasil observasi Anda pada folder_normal!
 
 Hasil Observasi: File asli yang bersesuaian di dalam folder_normal ikut terhapus. Hal ini terjadi karena folder_normal hanyalah antarmuka (interface) yang terhubung langsung dengan folder_terenkripsi (backend). Penghapusan data di salah satu sisi akan berdampak langsung pada sisi lainnya.
 
- ![alt text](86.png)
+ ![alt text](4c.png)
  
 d.  Lakukan umount dengan perintah : Fusermount -u ~/folder_anda/folder_normal
 Amati dan tulis hasil observasi Anda pada folder_normal dan folder_terenkripsi
 
 Hasil Observasi: Setelah proses unmount, folder_normal menjadi kosong. Data tidak dapat diakses secara langsung tanpa proses mount ulang menggunakan password yang valid.
 
- ![alt text](86.png)
+ ![alt text](4d.png)
  
 e. Buatlah folder baru bernama folder_sembarang. Lakukan perintah berikut ini : encfs ~/folder_anda/folder_terenkripsi ~/folder_anda/folder_sembarang
 Amati dan tulis hasil observasi Anda!
