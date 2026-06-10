@@ -70,25 +70,25 @@ Karena *environment* Ubuntu pada VirtualBox sudah dihapus, instalasi dilakukan m
 a.  Lakukan hash SHA256, SHA512 dan MD5 untuk file /etc/passwd. Berapa nilai hash dari file /etc/passwd? Screenshot nilai hash dari file tersebut.
 
 sha256sum /etc/passwd => sha512sum /etc/passwd => md5sum /etc/passwd
- ![alt text](86.png)
+ ![alt text](98.png)
  
 b. Buatlah file bernama test_0.txt pada folder /home/praktikan. Isi file tersebut isi yang ada di file /etc/passwd (copy paste isi file /etc/passwd ke test_0.txt)
 
 cp /etc/passwd test_0.txt
 
- ![alt text](86.png)
+ ![alt text](99.png)
  
 c. Lakukan hash SHA256, SHA512 dan MD5 untuk file test_0.txt. Berapa nilai hash dari file test_0.txt? Screenshot nilai hash dari file test_0.txt.
 
 sha256sum test_0.txt => sha512sum test_0.txt => md5sum test_0.txt
 
- ![alt text](86.png)
+ ![alt text](100.png)
  
 d.  Rename file test_0.txt menjadi file_0.txt. Lakukan hash SHA256, SHA512 dan MD5 untuk file_0.txt. Berapa nilai hash file_0.txt? Screenshot nilai hash dari file_0.txt.
 
 mv test_0.txt file_0.txt => sha256sum file_0.txt => sha512sum file_0.txt => md5sum file_0.txt
 
- ![alt text](86.png)
+ ![alt text](101.png)
  
 e.  Rename file test_0.txt menjadi file_0.txt. Lakukan hash SHA256, SHA512 dan MD5 untuk file_0.txt. Berapa nilai hash file_0.txt? Screenshot nilai hash dari file_0.txt.
 
@@ -101,17 +101,15 @@ a&b. Download file bernama test_1.txt di link ini tiny.cc/test1_txt dan Lakukan 
 
 sha256sum test_1.txt => sha512sum test_1.txt => md5sum test_1.txt
 
- ![alt text](86.png)
+ ![alt text](2a.png)
  
 c Hapuslah titik diakhir file test_1.txt tersebut, simpan file tersebut!
-
- ![alt text](86.png)
  
 d. Lakukan hash dari SHA256, SHA512 dan MD5. Screenshot nilai hash dari file test_1.txt. 
 
 sha256sum test_1.txt => sha512sum test_1.txt => md5sum test_1.txt
 
- ![alt text](86.png)
+ ![alt text](2d.png)
  
 e. Apa analisis (hasil pengamatan) Anda mengenai hal tersebut! Apakah nilai hash sama?
 - Apakah nilai hash sama? Tidak, nilai hash sama sekali tidak sama. Nilainya berubah total.  
@@ -189,7 +187,7 @@ a. Membuat kunci publik dan privat. Jalankan perintah ini
 - Tujuan: Membuat pasangan kunci (publik dan privat) untuk keperluan enkripsi dan dekripsi pesan.
 - Langkah: Menjalankan perintah gpg --gen-key dan mengikuti instruksi interaktif yang diberikan sistem, termasuk memasukkan identitas diri.
 - Bukti: 
- ![alt text](86.png)
+ ![alt text](5a.png)
 
 b. Hasil publickey dan privatekey ada di folder ~/.gnupg. Privatekey tidak boleh keluar dari komputer ini dan hanya Anda saja yang dapat mengaksesnya. Kunci publik akan dibagikan kepada seluruh dunia atau untuk orang yang Anda inginkan saja. Kunci publik adalah pubring.gpg dan kunci private adalah secring.gpg
 Lakukan perintah berikut ini untuk mengetahui daftar key yang Anda punya dan fingerprint kunci yang Anda punya!
@@ -198,7 +196,7 @@ Lakukan perintah berikut ini untuk mengetahui daftar key yang Anda punya dan fin
 - Langkah: Menjalankan perintah gpg --list-keys dan gpg --fingerprint [email_kamu].
 - Bukti: 
 
- ![alt text](86.png)
+ ![alt text](5b.png)
  
 c.  Jalankan perintah ini : gpg –-armor –-export nama@email.anda > mypublic_key.asc
 File mypublic_key.asc adalah file yang akan dibagikan kepada teman-teman Anda. Teman Anda akan menggunakan kunci publik Anda jika ingin mengirim pesan rahasia kepada Anda. Hanya Anda yang dapat membaca pesan tersebut karena hanya mempunyai kunci privat yang bersesuaian dengan kunci publik Anda. 
@@ -208,7 +206,7 @@ File mypublic_key.asc adalah file yang akan dibagikan kepada teman-teman Anda. T
 - Catatan Teknis: Terdapat kendala teknis pada link pengumpulan folder Google Drive, di mana tidak ditemukan folder yang sesuai dengan kelas SE0701, sehingga file dibagikan secara lokal untuk kebutuhan praktikum.
 - Bukti: 
 
- ![alt text](86.png)
+ ![alt text](5c.png)
  
 d. Mengimport kunci publik orang lain. Silakan download file nim_teman_sebelah_anda.asc dan jalankan perintah ini untuk mengimport (menambahkan kunci publik orang lain ke sistem Anda) : gpg –-import nim_teman_sebelah_anda.asc
 
@@ -216,7 +214,7 @@ d. Mengimport kunci publik orang lain. Silakan download file nim_teman_sebelah_a
 - Langkah: Mengunduh kunci publik teman (contoh: 103012440018.asc) dan menjalankan perintah gpg --import 103012440018.asc.
 - Bukti: 
 
- ![alt text](86.png)
+ ![alt text](5d.png)
  
 e. Buatlah file bernama file_rahasia.txt. Isi file tersebut dengan pesan rahasia Anda. Pesan inilah yang akan Anda kirim ke teman Anda. Jalankan perintah ini untuk melakukan enkripsi : //ditulis dalam satu baris
 gpg –-encrypt –-armor -r alamat_email_teman_anda_yang_baru_diimport@xxx.com file_rahasia.txt
@@ -226,7 +224,7 @@ gpg –-encrypt –-armor -r alamat_email_teman_anda_yang_baru_diimport@xxx.com 
 - Catatan: Muncul peringatan "There is no assurance this key belongs to the named user", yang menandakan kunci publik belum ditandatangani (signed). Proses dilanjutkan dengan mengonfirmasi pilihan "y" untuk melanjutkan enkripsi.
 - Bukti: 
 
- ![alt text](86.png)
+ ![alt text](5e.png)
  
 f.  Hanya teman anda yang dapat membuka file tersebut. Hasil dari proses tersebut adalah file_rahasia_untuk_teman_anda.asc (contoh: file_rahasia_untuk_130118yyyy.asc) Taruh file_rahasia_untuk_teman_anda.asc ke folder pada link: http://tiny.cc/SisopNomor5F
 Download dan buka file yang diperuntukkan bagi Anda dan lakukan dekripsi untuk melihat isi pesan dengan perintah : pg file_rahasia_nim_anda.asc
@@ -234,7 +232,5 @@ Download dan buka file yang diperuntukkan bagi Anda dan lakukan dekripsi untuk m
 - Tujuan: Membuka file terenkripsi untuk membaca pesan rahasia menggunakan kunci privat yang sesuai.
 - Langkah: Melakukan dekripsi file dengan perintah gpg -d pesan.txt.gpg > hasil_buka_pesan.txt, kemudian membaca isi file dengan cat hasil_buka_pesan.txt.
 - Catatan: Dekripsi dilakukan untuk menguji validitas enkripsi. Proses ini berhasil mengembalikan pesan ke format teks asli, yang membuktikan bahwa kunci privat yang digunakan sesuai dengan kunci publik saat enkripsi.
-- Bukti: 
 
- ![alt text](86.png)
  
