@@ -121,11 +121,11 @@ a&b. Download file bernama test_1.doc di link ini tiny.cc/test1_doc dan Lakukan 
 
 sha256sum test_1.doc => sha512sum test_1.doc => md5sum test_1.doc
 
- ![alt text](86.png)
+ ![alt text](3a.png)
  
 c. Buka kembali file test_1.doc. Lakukan hal ini:
 
- ![alt text](86.png)
+ ![alt text](3c.png)
  
    i. Ketik abcdef. Save test_1.doc 
    ii. Hapus abcdef. Save test_1.doc 
@@ -134,7 +134,7 @@ d. Lakukan hash SHA256, SHA512 dan MD5 untuk file test_1.doc. Screenshot nilai h
 
 sha256sum test_1.doc => sha512sum test_1.doc => md5sum test_1.doc
 
- ![alt text](86.png)
+ ![alt text](3d.png)
  
 e. Hasil pengamatan apa yang diperoleh? Jelaskan alasannya! 
 
