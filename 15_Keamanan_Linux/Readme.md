@@ -178,7 +178,7 @@ Amati dan tulis hasil observasi Anda!
 
 Hasil Observasi: Setelah memasukkan password yang benar, file yang tersimpan di dalam brankas (folder_terenkripsi) berhasil didekripsi dan muncul kembali di dalam folder_sembarang dengan nama asli. Hal ini menunjukkan bahwa sistem enkripsi EncFS aman dan fleksibel untuk digunakan.
 
- ![alt text](86.png)
+ ![alt text](4e.png)
  
 ### 5. Konfidensialitas: gpg
 
